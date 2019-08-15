@@ -1,0 +1,445 @@
+{
+  "add": "Pridėti",
+  "avatar": "Profilio nuotrauka",
+  "back": "Atgal",
+  "cancel": "Atšaukti",
+  "change": "Keisti",
+  "close": "Uždaryti",
+  "confirm": "Ok",
+  "copy": "Kopijuoti",
+  "create": "Sukurti",
+
+  "date": "Data",
+  "date.select": "Pasirinkite datą",
+
+  "day": "Diena",
+  "days.fri": "Penktadienis",
+  "days.mon": "Pirmadienis",
+  "days.sat": "Šeštadienis",
+  "days.sun": "Sekmadienis",
+  "days.thu": "Ketvirtadienis",
+  "days.tue": "Antradienis",
+  "days.wed": "Trečiadienis",
+
+  "delete": "Pašalinti",
+  "dimensions": "Išmatavimai",
+  "discard": "Atšaukti",
+  "download": "Parsisiųsti",
+  "duplicate": "Kopijuoti",
+  "edit": "Redaguoti",
+
+  "dialog.files.empty": "Nėra failų pasirinkimui",
+  "dialog.pages.empty": "Nėra puslapių pasirinkimui",
+  "dialog.users.empty": "Nėra vartotojų pasirinkimui",
+
+  "email": "El. paštas",
+  "email.placeholder": "mail@example.com",
+
+  "error.access.login": "Neteisingas prisijungimo vardas",
+  "error.access.panel": "Neturite teisės prisijungti prie valdymo pulto",
+
+  "error.avatar.create.fail": "Nepavyko įkelti profilio nuotraukos",
+  "error.avatar.delete.fail": "Nepavyko pašalinti profilio nuotraukos",
+  "error.avatar.dimensions.invalid":
+    "Profilio nuotraukos plotis ar aukštis turėtų būti iki 3000 pikselių",
+  "error.avatar.mime.forbidden":
+    "Profilio nuotrauka turi būti JPEG arba PNG",
+
+  "error.blueprint.notFound": "Blueprint \"{name}\" negali būti užkrautas",
+
+  "error.email.preset.notFound": "El. pašto paruoštukas \"{name}\" nerastas",
+
+  "error.field.converter.invalid": "Neteisingas konverteris \"{converter}\"",
+
+  "error.file.changeName.permission":
+    "Neturite teisės pakeisti failo pavadinimo \"{filename}\"",
+  "error.file.duplicate": "Failas su pavadinimu \"{filename}\" jau yra",
+  "error.file.extension.forbidden":
+    "Failo tipas (plėtinys) \"{extension}\" neleidžiamas",
+  "error.file.extension.missing":
+    "Failui \"{filename}\" trūksta tipo (plėtinio)",
+  "error.file.mime.differs":
+    "Įkėliamas failas turi būti tokio pat mime tipo \"{mime}\"",
+  "error.file.mime.forbidden": "Media tipas \"{mime}\" neleidžiamas",
+  "error.file.mime.missing":
+    "Failui \"{filename}\" nepavyko atpažinti media (mime) tipo",
+  "error.file.name.missing": "Failo pavadinimas negali būti tuščias",
+  "error.file.notFound": "Failas \"{filename}\" nerastas",
+  "error.file.type.forbidden": "Jūs neturite teisės įkelti {type} tipo failų",
+  "error.file.undefined": "Failas nerastas",
+
+  "error.form.incomplete": "🙏 Prašome ištaisyti visas formos klaidas…",
+  "error.form.notSaved": "Formos nepavyko išsaugoti",
+
+  "error.language.code": "Prašome įrašyti teisingą kalbos kodą",
+  "error.language.duplicate": "Tokia kalba jau yra",
+  "error.language.name": "Prašome įrašyti teisingą kalbos pavadinimą",
+
+  "error.license.format": "Prašome įrašyti teisingą licenzijos kodą",
+  "error.license.email": "Prašome įrašyti teisingą el. pašto adresą",
+  "error.license.verification": "Nepavyko patikrinti licenzijos",
+
+  "error.page.changeSlug.permission":
+    "Neturite teisės pakeisti \"{slug}\" URL",
+  "error.page.changeStatus.incomplete":
+    "Puslapis turi klaidų ir negali būti paskelbtas",
+  "error.page.changeStatus.permission":
+    "The status for this page cannot be changed",
+  "error.page.changeStatus.toDraft.invalid":
+    "The page \"{slug}\" cannot be converted to a draft",
+  "error.page.changeTemplate.invalid":
+    "The template for the page \"{slug}\" cannot be changed",
+  "error.page.changeTemplate.permission":
+    "You are not allowed to change the template for \"{slug}\"",
+  "error.page.changeTitle.empty": "The title must not be empty",
+  "error.page.changeTitle.permission":
+    "You are not allowed to change the title for \"{slug}\"",
+  "error.page.create.permission": "You are not allowed to create \"{slug}\"",
+  "error.page.delete": "The page \"{slug}\" cannot be deleted",
+  "error.page.delete.confirm": "Please enter the page title to confirm",
+  "error.page.delete.hasChildren":
+    "The page has subpages and cannot be deleted",
+  "error.page.delete.permission": "You are not allowed to delete \"{slug}\"",
+  "error.page.draft.duplicate":
+    "A page draft with the URL appendix \"{slug}\" already exists",
+  "error.page.duplicate":
+    "A page with the URL appendix \"{slug}\" already exists",
+  "error.page.duplicate.permission": "You are not allowed to duplicate \"{slug}\"",
+  "error.page.notFound": "The page \"{slug}\" cannot be found",
+  "error.page.num.invalid":
+    "Please enter a valid sorting number. Numbers must not be negative.",
+  "error.page.slug.invalid": "Please enter a valid URL prefix",
+  "error.page.sort.permission": "The page \"{slug}\" cannot be sorted",
+  "error.page.status.invalid": "Please set a valid page status",
+  "error.page.undefined": "The page cannot be found",
+  "error.page.update.permission": "You are not allowed to update \"{slug}\"",
+
+  "error.section.files.max.plural":
+    "You must not add more than {max} files to the \"{section}\" section",
+  "error.section.files.max.singular":
+    "You must not add more than one file to the \"{section}\" section",
+  "error.section.files.min.plural":
+    "The \"{section}\" section requires at least {min} files",
+  "error.section.files.min.singular":
+    "The \"{section}\" section requires at least one file",
+
+  "error.section.pages.max.plural":
+    "You must not add more than {max} pages to the \"{section}\" section",
+  "error.section.pages.max.singular":
+    "You must not add more than one page to the \"{section}\" section",
+  "error.section.pages.min.plural":
+    "The \"{section}\" section requires at least {min} pages",
+  "error.section.pages.min.singular":
+    "The \"{section}\" section requires at least one page",
+
+  "error.section.notLoaded": "The section \"{name}\" could not be loaded",
+  "error.section.type.invalid": "The section type \"{type}\" is not valid",
+
+  "error.site.changeTitle.permission":
+    "You are not allowed to change the title of the site",
+  "error.site.update.permission": "You are not allowed to update the site",
+
+  "error.template.default.notFound": "The default template does not exist",
+
+  "error.user.changeEmail.permission":
+    "You are not allowed to change the email for the user \"{name}\"",
+  "error.user.changeLanguage.permission":
+    "You are not allowed to change the language for the user \"{name}\"",
+  "error.user.changeName.permission":
+    "You are not allowed to change the name for the user \"{name}\"",
+  "error.user.changePassword.permission":
+    "You are not allowed to change the password for the user \"{name}\"",
+  "error.user.changeRole.lastAdmin":
+    "The role for the last admin cannot be changed",
+  "error.user.changeRole.permission":
+    "You are not allowed to change the role for the user \"{name}\"",
+  "error.user.create.permission": "You are not allowed to create this user",
+  "error.user.delete": "The user \"{name}\" cannot be deleted",
+  "error.user.delete.lastAdmin": "The last admin cannot be deleted",
+  "error.user.delete.lastUser": "The last user cannot be deleted",
+  "error.user.delete.permission":
+    "You are not allowed to delete the user \"{name}\"",
+  "error.user.duplicate":
+    "A user with the email address \"{email}\" already exists",
+  "error.user.email.invalid": "Please enter a valid email address",
+  "error.user.language.invalid": "Please enter a valid language",
+  "error.user.notFound": "The user \"{name}\" cannot be found",
+  "error.user.password.invalid":
+    "Prašome įrašyti galiojantį slaptažodį. Slaptažodį turi sudaryti bent 8 simboliai.",
+  "error.user.password.notSame": "The passwords do not match",
+  "error.user.password.undefined": "The user does not have a password",
+  "error.user.role.invalid": "Please enter a valid role",
+  "error.user.undefined": "Vartotojas nerastas",
+  "error.user.update.permission":
+    "Neturite teisės keisti vartotojo \"{name}\"",
+
+  "error.validation.accepted": "Prašome patvirtinti",
+  "error.validation.alpha": "Prašome įrašyti tik raides a-z",
+  "error.validation.alphanum":
+    "Prašome įrašyti tik raides a-z arba skaičius 0-9",
+  "error.validation.between":
+    "Prašome įrašyti reikšmę tarp \"{min}\" ir \"{max}\"",
+  "error.validation.boolean": "Patvirtinkite arba atšaukite",
+  "error.validation.contains":
+    "Prašome įrašyti reikšmę, kuri turėtų \"{needle}\"",
+  "error.validation.date": "Prašome įrašyti korektišką datą",
+  "error.validation.denied": "Please deny",
+  "error.validation.different": "The value must not be \"{other}\"",
+  "error.validation.email": "Prašome įrašyti korektišką el. paštą",
+  "error.validation.endswith": "The value must end with \"{end}\"",
+  "error.validation.filename": "Please enter a valid filename",
+  "error.validation.in": "Please enter one of the following: ({in})",
+  "error.validation.integer": "Please enter a valid integer",
+  "error.validation.ip": "Please enter a valid IP address",
+  "error.validation.less": "Prašome įrašyti mažiau nei {max}",
+  "error.validation.match": "The value does not match the expected pattern",
+  "error.validation.max": "Please enter a value equal to or lower than {max}",
+  "error.validation.maxlength":
+    "Please enter a shorter value. (max. {max} characters)",
+  "error.validation.maxwords": "Please enter no more than {max} word(s)",
+  "error.validation.min": "Please enter a value equal to or greater than {min}",
+  "error.validation.minlength":
+    "Please enter a longer value. (min. {min} characters)",
+  "error.validation.minwords": "Prašome įrašyti bent {min} žodžius",
+  "error.validation.more": "Prašome įrašyti daugiau nei {min}",
+  "error.validation.notcontains":
+    "Please enter a value that does not contain \"{needle}\"",
+  "error.validation.notin":
+    "Please don't enter any of the following: ({notIn})",
+  "error.validation.option": "Please select a valid option",
+  "error.validation.num": "Please enter a valid number",
+  "error.validation.required": "Please enter something",
+  "error.validation.same": "Please enter \"{other}\"",
+  "error.validation.size": "The size of the value must be \"{size}\"",
+  "error.validation.startswith": "The value must start with \"{start}\"",
+  "error.validation.time": "Please enter a valid time",
+  "error.validation.url": "Prašome įrašyti teisingą URL",
+
+  "field.files.empty": "No files selected yet",
+  "field.pages.empty": "No pages selected yet",
+  "field.structure.delete.confirm": "Ar tikrai norite pašalinti šią eilutę?",
+  "field.structure.empty": "Dar nėra įrašų",
+  "field.users.empty": "No users selected yet",
+
+  "file.delete.confirm":
+    "Do you really want to delete <br><strong>{filename}</strong>?",
+
+  "files": "Failai",
+  "files.empty": "Dar nėra failų",
+
+  "hour": "Valanda",
+  "insert": "Įterpti",
+  "install": "Įdiegti",
+
+  "installation": "Installation",
+  "installation.completed": "The panel has been installed",
+  "installation.disabled": "The panel installer is disabled on public servers by default. Please run the installer on a local machine or enable it with the <code>panel.install</code> option.",
+  "installation.issues.accounts":
+    "The <code>/site/accounts</code> folder does not exist or is not writable",
+  "installation.issues.content":
+    "The <code>/content</code> folder does not exist or is not writable",
+  "installation.issues.curl": "The <code>CURL</code> extension is required",
+  "installation.issues.headline": "The panel cannot be installed",
+  "installation.issues.mbstring":
+    "The <code>MB String</code> extension is required",
+  "installation.issues.media":
+    "The <code>/media</code> folder does not exist or is not writable",
+  "installation.issues.php": "Make sure to use <code>PHP 7+</code>",
+  "installation.issues.server":
+    "Kirby requires <code>Apache</code>, <code>Nginx</code> or <code>Caddy</code>",
+  "installation.issues.sessions": "The <code>/site/sessions</code> folder does not exist or is not writable",
+
+  "language": "Kalba",
+  "language.code": "Kodas",
+  "language.convert": "Padaryti pagrindinį",
+  "language.convert.confirm":
+    "<p>Do you really want to convert <strong>{name}</strong> to the default language? This cannot be undone.</p><p>If <strong>{name}</strong> has untranslated content, there will no longer be a valid fallback and parts of your site might be empty.</p>",
+  "language.create": "Pridėti naują kalbą",
+  "language.delete.confirm":
+    "Ar tikrai norite pašalinti <strong>{name}</strong> kalbą, kartu su visais vertimais? Grąžinti nebus įmanoma! 🙀",
+  "language.deleted": "Kalba pašalinta",
+  "language.direction": "Skaitymo kryptis",
+  "language.direction.ltr": "Iš kairės į dešinę",
+  "language.direction.rtl": "Iš dešinės į kairę",
+  "language.locale": "PHP locale string",
+  "language.name": "Pavadinimas",
+  "language.updated": "Kalba atnaujinta",
+
+  "languages": "Kalbos",
+  "languages.default": "Pagrindinė kalba",
+  "languages.empty": "Dar nėra kalbų",
+  "languages.secondary": "Papildomos kalbos",
+  "languages.secondary.empty": "Dar nėra papildomų kalbų",
+
+  "license": "Licenzija",
+  "license.buy": "Pirkti licenziją",
+  "license.register": "Registruoti",
+  "license.register.help":
+    "Licenzijos kodą gavote el. paštu po apmokėjimo. Prašome įterpti čia, kad sistema būtų užregistruota.",
+  "license.register.label": "Prašome įrašyti jūsų licenzijos kodą",
+  "license.register.success": "Ačiū, kad palaikote Kirby",
+  "license.unregistered": "Tai neregistruota Kirby demo versija",
+
+  "link": "Nuoroda",
+  "link.text": "Nuorodos tekstas",
+
+  "loading": "Kraunasi",
+
+  "lock.unsaved": "Neišsaugoti pakeitimai",
+  "lock.isLocked": "Vartotojo <strong>{email}</strong> neišsaugoti pakeitimai",
+  "lock.file.isLocked": "Šį failą dabar redaguoja kitas vartotojas {email}, tad jo negalima pekeisti.",
+  "lock.page.isLocked": "Šį puslapį dabar redaguoja kitas vartotojas {email}, tad jo negalima pekeisti.",
+  "lock.unlock": "Atrakinti",
+  "lock.isUnlocked": "Your unsaved changes have been overwritten by another user. You can download your changes to merge them manually.",
+
+  "login": "Prisijungti",
+  "login.remember": "Likti prisijungus",
+
+  "logout": "Atsijungti",
+
+  "menu": "Meniu",
+  "meridiem": "AM/PM",
+  "mime": "Media Tipas",
+  "minutes": "Minutės",
+
+  "month": "Mėnuo",
+  "months.april": "Balandis",
+  "months.august": "August",
+  "months.december": "Gruodis",
+  "months.february": "Vasaris",
+  "months.january": "Sausis",
+  "months.july": "Liepa",
+  "months.june": "Birželis",
+  "months.march": "Kovas",
+  "months.may": "Gegužė",
+  "months.november": "Lapkritis",
+  "months.october": "Spalis",
+  "months.september": "Rugsėjis",
+
+  "more": "Daugiau",
+  "name": "Pavadinimas",
+  "next": "Toliau",
+  "off": "off",
+  "on": "on",
+  "open": "Atidaryti",
+  "options": "Pasirinkimai",
+
+  "orientation": "Orientacija",
+  "orientation.landscape": "Horizontali",
+  "orientation.portrait": "Portretas",
+  "orientation.square": "Kvadratas",
+
+  "page.changeSlug": "Pakeisti URL",
+  "page.changeSlug.fromTitle": "Sukurti URL pagal pavadinimą",
+  "page.changeStatus": "Pakeisti statusą",
+  "page.changeStatus.position": "Pasirinkite poziciją",
+  "page.changeStatus.select": "Pasirinkite statusą",
+  "page.changeTemplate": "Pakeisti šabloną",
+  "page.delete.confirm":
+    "🙀 Ar tikrai norite pašalinti puslapį <strong>{title}</strong>?",
+  "page.delete.confirm.subpages":
+    "<strong>Šis puslapis turi sub-puslapių</strong>. <br>Visi sub-puslapiai taip pat bus pašalinti.",
+  "page.delete.confirm.title": "Įrašykite puslapio pavadinimą tam, kad patvirtinti",
+  "page.draft.create": "Sukurti juodraštį",
+  "page.duplicate.appendix": "Kopijuoti",
+  "page.duplicate.files": "Kopijuoti failus",
+  "page.duplicate.pages": "Kopijuoti puslapius",
+  "page.status": "Statusas",
+  "page.status.draft": "Juodraštis",
+  "page.status.draft.description":
+    "Puslapis nematomas viešai, bet matomas tik prisijungusiems administratoriams",
+  "page.status.listed": "Paskelbtas",
+  "page.status.listed.description": "Matomas viešai visiems",
+  "page.status.unlisted": "Nerodomas",
+  "page.status.unlisted.description": "Rodomas viešai visiems, bet tik per URL",
+
+  "pages": "Puslapiai",
+  "pages.empty": "Dar nėra puslapių",
+  "pages.status.draft": "Juodraščiai",
+  "pages.status.listed": "Paskelbti",
+  "pages.status.unlisted": "Nerodomi",
+
+  "password": "Slaptažodis",
+  "pixel": "Pikselis",
+  "prev": "Ankstesnis",
+  "remove": "Pašalinti",
+  "rename": "Pervadinti",
+  "replace": "Apkeisti",
+  "retry": "Bandyti dar",
+  "revert": "Grąžinti",
+
+  "role": "Rolė",
+  "role.admin.description": "Admin turi visas teises",
+  "role.admin.title": "Admin",
+  "role.all": "Visos",
+  "role.empty": "There are no users with this role",
+  "role.description.placeholder": "No description",
+  "role.nobody.description": "This is a fallback role without any permissions",
+  "role.nobody.title": "Nobody",
+
+  "save": "Išsaugoti",
+  "search": "Ieškoti",
+  "select": "Pasirinkti",
+  "settings": "Nustatymai",
+  "size": "Dydis",
+  "slug": "URL pabaiga",
+  "sort": "Rikiuoti",
+  "title": "Pavadinimas",
+  "template": "Puslapio šablonas",
+  "today": "Šiandien",
+
+  "toolbar.button.code": "Kodas",
+  "toolbar.button.bold": "Bold",
+  "toolbar.button.email": "El. paštas",
+  "toolbar.button.headings": "Antraštės",
+  "toolbar.button.heading.1": "Heading 1",
+  "toolbar.button.heading.2": "Heading 2",
+  "toolbar.button.heading.3": "Heading 3",
+  "toolbar.button.italic": "Italic",
+  "toolbar.button.file": "Failas",
+  "toolbar.button.file.select": "Pasirinkite failą",
+  "toolbar.button.file.upload": "Įkelti failą",
+  "toolbar.button.link": "Nuoroda",
+  "toolbar.button.ol": "Sąrašas su skaičiais",
+  "toolbar.button.ul": "Sąrašas su taškais",
+
+  "translation.author": "Roman U",
+  "translation.direction": "ltr",
+  "translation.name": "Lietuvių",
+
+  "upload": "Įkelti",
+  "upload.errors": "Klaida",
+  "upload.progress": "Įkėlimas…",
+
+  "url": "Url",
+  "url.placeholder": "https://example.com",
+
+  "user": "Vartotojas",
+  "user.blueprint":
+    "You can define additional sections and form fields for this user role in <strong>/site/blueprints/users/{role}.yml</strong>",
+  "user.changeEmail": "Keisti el. paštą",
+  "user.changeLanguage": "Keisti kalbą",
+  "user.changeName": "Pervadinti vartotoją",
+  "user.changePassword": "Keisti slaptažodį",
+  "user.changePassword.new": "Naujas slaptažodis",
+  "user.changePassword.new.confirm": "Patvirtinti naują slaptažodį…",
+  "user.changeRole": "Keisti rolę",
+  "user.changeRole.select": "Pasirinkti naują rolę",
+  "user.create": "Pridėti naują vartotoją",
+  "user.delete": "Pašalinti šį vartotoją",
+  "user.delete.confirm":
+    "Ar tikrai norite pašalinti vartotoją <br><strong>{email}</strong>?",
+
+  "users": "Vartotojai",
+
+  "version": "Versija",
+
+  "view.account": "Jūsų paskyra",
+  "view.installation": "Installation",
+  "view.settings": "Nustatymai",
+  "view.site": "Svetainė",
+  "view.users": "Vartotojai",
+
+  "welcome": "Sveiki",
+  "year": "Metai"
+}
